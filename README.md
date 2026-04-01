@@ -1,7 +1,6 @@
-# Case Study: <Project Title>
+# Case Study: Physics-Aware Microstructure Learning with Pretrained Models
 
 ## Overview
-Brief description of the problem and stakeholders.
 
 ## Repository Structure
 - `src/` – source code
