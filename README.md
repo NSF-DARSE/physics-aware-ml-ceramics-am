@@ -1,20 +1,17 @@
-# Case Study: <Project Title>
+# Case Study: Physics-Aware Microstructure Learning with Pretrained Models
 
 ## Overview
-Brief description of the problem and stakeholders.
+Understanding how microstructures relate to material properties is a key challenge in materials science. Traditional approaches rely on handcrafted features or task-specific models, which often require significant effort to design and do not generalize well across datasets.
+This project explores the use of pretrained and self-supervised vision models for learning robust microstructure representations
 
 ## Repository Structure
-- `src/` – source code
-- `docs/` – optional documentation (Sphinx scaffold)
-- `data/` – input/output data (if applicable)
+To be added soon
 
-## Getting Started
-1. Clone the repository
-2. Create a feature branch
-3. Open a pull request early
+## Coding Description
+
 
 ## Documentation
-This repository includes an optional Sphinx documentation scaffold.
+
 
 ## Contributing
 All changes must go through pull requests.
