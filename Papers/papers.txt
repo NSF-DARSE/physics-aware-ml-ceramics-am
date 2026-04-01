@@ -1,6 +1,8 @@
 Pretrained papers list:
-1. [MATSAM: EFFICIENT EXTRACTION OF MICROSTRUCTURES OFMATERIALS VIA VISUAL LARGE MODEL](https://arxiv.org/pdf/2401.05638v2)
-2. [MatSSL: Robust Self-Supervised Representation Learning for Metallographic
+
+[MATSAM: EFFICIENT EXTRACTION OF MICROSTRUCTURES OF MATERIALS VIA VISUAL LARGE MODEL](https://arxiv.org/pdf/2401.05638v2)
+
+[MatSSL: Robust Self-Supervised Representation Learning for Metallographic
 Image Segmentation](https://arxiv.org/pdf/2507.18184)
-3. [Learning microstructure–property relationships in materials with robust
-features from vision transformers](https://openaccess.thecvf.com/content/CVPR2024W/CV4MS/papers/Whitman_Learning_Microstructure--Property_Relationships_in_Materials_with_Robust_Features_from_Vision_CVPRW_2024_paper.pdf)
+
+[Learning microstructure–property relationships in materials with robust features from vision transformers](https://openaccess.thecvf.com/content/CVPR2024W/CV4MS/papers/Whitman_Learning_Microstructure--Property_Relationships_in_Materials_with_Robust_Features_from_Vision_CVPRW_2024_paper.pdf)
