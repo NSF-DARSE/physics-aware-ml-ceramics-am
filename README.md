@@ -14,7 +14,7 @@ Since annotated ground truth masks are unavailable, we adopt a **pseudo-labeling
 The current stage of the project focuses on:
 
 1. Building a **baseline pseudo-labeling pipeline**
-2. Training a **pre-trained segmentation models**
+2. Training segmentation models, including **pretrained-model-based approaches**
 3. Evaluating models behavior against noisy labels
 4. Designing a **modular and reproducible pipeline**
 
