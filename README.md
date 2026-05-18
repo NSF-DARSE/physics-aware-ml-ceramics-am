@@ -1,3 +1,4 @@
+## [![License: BSD-3-Clause](https://img.shields.io/badge/License-BSD--3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 # Case Study: Physics-Aware Microstructure Learning with Pretrained Models
 
 ## Overview
@@ -35,14 +36,15 @@ Predicted Masks
 ## Repository Structure
 ```
 ├── papers/                 # Related research papers
-├── old_codes/              # Experimental or previous versions
+├── codes/                  # Experimental or previous versions
+├── construction_codes/     # preliminary construction attempts
 ├── segmentation/           # Main segmentation pipeline
 │   ├── 1200/               # Experiments for 1200°C dataset
-│   │   ├── segmentation_1200.ipynb
-│   │   └── segmentation_1200_sau.ipynb  #segmentation with two different thresholding
+│   │   ├── segmentation_1200_otsu.ipynb
+│   │   └── segmentation_1200_sauvola.ipynb  #segmentation with two different thresholding
 │   ├── 1400/               # Experiments for 1400°C dataset
-│   │   ├── segmentation_1400.ipynb
-│   │   └── segmentation_1400_sau.ipynb
+│   │   ├── segmentation_1400_otsu.ipynb
+│   │   └── segmentation_1400_sauvola.ipynb
 │
 ├── requirements.txt        # Python dependencies
 └── README.md
