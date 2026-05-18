@@ -88,6 +88,29 @@ Predicted Masks
 
 - Resource profiling performed on DARWIN HPC GPU environment.
 
+## Resource Profiling
+
+- Experiments were executed on the DARWIN HPC environment using GPU resources.
+
+- Resource usage was monitored during training using terminal-based profiling tools such as:
+  - `nvidia-smi`
+  - `watch -n 1 nvidia-smi`
+
+- Profiling included:
+  - GPU utilization
+  - GPU memory usage
+  - Training runtime
+  - Epoch-level performance tracking
+
+- Resource profiling was compared across:
+  - Baseline CNN
+  - U-Net
+  - DINOv2 + Decoder
+
+- Models were evaluated with different epoch settings (20, 40, and 100 epochs) to analyze computational cost and training stability.
+
+- Input images were resized to 224×224 for consistent GPU processing and model comparison.
+
 ## Documentation
 This repository includes an optional Sphinx documentation scaffold.
 
