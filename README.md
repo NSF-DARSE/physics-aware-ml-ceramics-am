@@ -53,6 +53,39 @@ Predicted Masks
 
 `pip install -r requirements.txt`
 
+## Testing Strategy
+
+- Tested multiple segmentation models:
+  - Baseline CNN
+  - U-Net
+  - DINOv2 + Decoder
+
+- Evaluated different training settings:
+  - 20, 40, and 100 epochs
+  - Different train-test splits
+
+- Compared pseudo-label generation methods:
+  - Otsu Thresholding
+  - Sauvola Thresholding
+
+- Verified preprocessing pipeline:
+  - Image cropping
+  - Resizing to 224×224
+  - Binary mask generation
+
+- Evaluated segmentation performance using:
+  - Training loss
+  - Dice score
+  - IoU score
+  - Pixel accuracy
+
+- Performed qualitative validation through visual comparison of:
+  - Original images
+  - Generated masks
+  - Predicted segmentation outputs
+
+- Resource profiling performed on DARWIN HPC GPU environment.
+
 ## Documentation
 This repository includes an optional Sphinx documentation scaffold.
 
