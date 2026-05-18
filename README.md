@@ -51,10 +51,23 @@ Predicted Masks
 ```
 
 ## Getting Started
-## Install all the dependencies
+
+
+## Quickstart
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/NSF-DARSE/physics-aware-ml-ceramics-am.git
+cd physics-aware-ml-ceramics-am
+```
+2. Install all the dependencies
 
 `pip install -r requirements.txt`
 
+3. Run segmentation experiments from the notebooks inside:
+ `segmentation_files/`
+ 
 ## Testing Strategy
 
 - Tested multiple segmentation models:
